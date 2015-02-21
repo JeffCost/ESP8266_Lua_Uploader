@@ -1,0 +1,8 @@
+C:\Users\Jeff\Documents\Projects\ESP8266\LuaUploader\SerialPort\bin\Release\LuaUploader.exe.config
+C:\Users\Jeff\Documents\Projects\ESP8266\LuaUploader\SerialPort\obj\x86\Release\LuaUploader.Form1.resources
+C:\Users\Jeff\Documents\Projects\ESP8266\LuaUploader\SerialPort\obj\x86\Release\LuaUploader.Properties.Resources.resources
+C:\Users\Jeff\Documents\Projects\ESP8266\LuaUploader\SerialPort\obj\x86\Release\LuaUploader.csproj.GenerateResource.Cache
+C:\Users\Jeff\Documents\Projects\ESP8266\LuaUploader\SerialPort\bin\Release\LuaUploader.exe
+C:\Users\Jeff\Documents\Projects\ESP8266\LuaUploader\SerialPort\bin\Release\LuaUploader.pdb
+C:\Users\Jeff\Documents\Projects\ESP8266\LuaUploader\SerialPort\obj\x86\Release\LuaUploader.exe
+C:\Users\Jeff\Documents\Projects\ESP8266\LuaUploader\SerialPort\obj\x86\Release\LuaUploader.pdb
