@@ -4,7 +4,7 @@ Thank you [hwiguna](https://github.com/hwiguna) that provided the initial [opens
 
 ## Windows Binary Download
 
-LuaUploader for Windows download [here](/LuaUploader-Win.zip)
+LuaUploader for Windows download [here](https://github.com/JeffCost/ESP8266_Lua_Uploader/blob/master/LuaUploader-Win.zip?raw=true)
 
 ## Compile on Linux/Ubuntu 
 
