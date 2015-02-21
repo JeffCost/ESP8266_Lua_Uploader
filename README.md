@@ -1,8 +1,10 @@
 # ESP8266 Lua Uploader
 
-Thank you hwiguna that provided the initial opensource code.
+Thank you [hwiguna](https://github.com/hwiguna) that provided the initial [opensource code](https://github.com/hwiguna/g33k/tree/master/ArduinoProjects/Windows/ESP8266_Related/LuaUploader).
 
-https://github.com/hwiguna/g33k/tree/master/ArduinoProjects/Windows/ESP8266_Related/LuaUploader
+## Windows Binary Download
+
+LuaUploader for Windows download [here](https://github.com/JeffCost/ESP8266_Lua_Uploader/blob/master/LuaUploader-Win.zip?raw=true)
 
 ## Compile on Linux/Ubuntu 
 
