@@ -1,8 +1,0 @@
-/home/jeff/btsync/projects/esp8266/LuaUploader/SerialPort/obj/x86/Debug/.NETFramework,Version=v4.0,Profile=Client.AssemblyAttribute.cs
-/home/jeff/btsync/projects/esp8266/LuaUploader/SerialPort/obj/x86/Debug/LuaUploader.Form1.resources
-/home/jeff/btsync/projects/esp8266/LuaUploader/SerialPort/obj/x86/Debug/LuaUploader.Properties.Resources.resources
-/home/jeff/btsync/projects/esp8266/LuaUploader/SerialPort/bin/Debug/LuaUploader.exe.config
-/home/jeff/btsync/projects/esp8266/LuaUploader/SerialPort/bin/Debug/LuaUploader.exe.mdb
-/home/jeff/btsync/projects/esp8266/LuaUploader/SerialPort/bin/Debug/LuaUploader.exe
-/home/jeff/btsync/projects/esp8266/LuaUploader/SerialPort/obj/x86/Debug/LuaUploader.exe
-/home/jeff/btsync/projects/esp8266/LuaUploader/SerialPort/obj/x86/Debug/LuaUploader.exe.mdb
