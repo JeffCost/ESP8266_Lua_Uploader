@@ -4,6 +4,10 @@ Thank you hwiguna that provided the initial opensource code.
 
 https://github.com/hwiguna/g33k/tree/master/ArduinoProjects/Windows/ESP8266_Related/LuaUploader
 
+## Windows Binary Download
+
+LuaUploader for Windows download [here](/LuaUploader-Win.zip)
+
 ## Compile on Linux/Ubuntu 
 
 ```bash
