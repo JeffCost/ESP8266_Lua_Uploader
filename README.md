@@ -6,5 +6,6 @@ https://github.com/hwiguna/g33k/tree/master/ArduinoProjects/Windows/ESP8266_Rela
 
 ![ESP8266 Lua Uploader](https://raw.githubusercontent.com/JeffCost/ESP8266_Lua_Uploader/master/screenshots/lua_uploader1.png "ESP8266 Lua Uploader")
 
+![ESP8266 Lua Uploader](https://raw.githubusercontent.com/JeffCost/ESP8266_Lua_Uploader/master/screenshots/lua_uploader3.png "ESP8266 Lua Uploader")
 
 ![ESP8266 Lua Uploader](https://raw.githubusercontent.com/JeffCost/ESP8266_Lua_Uploader/master/screenshots/lua_uploader2.png "ESP8266 Lua Uploader")
