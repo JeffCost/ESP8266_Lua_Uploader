@@ -991,7 +991,7 @@ namespace LuaUploader
                 mqttSubscribeTopic.Items.Add(subscribeTopic);
             }
 
-            SendLines("m:subscribe(\"/" + subscribeTopic + "\", " + subscribeQoS + ", function(conn) print(\"Subscribed to [" + subscribeTopic + "] successfully.\") end)");
+            SendLines("m:subscribe(\"" + subscribeTopic + "\", " + subscribeQoS + ", function(conn) print(\"Subscribed to [" + subscribeTopic + "] successfully.\") end)");
         }
 
         private void mqttPublishBtn_Click(object sender, EventArgs e)

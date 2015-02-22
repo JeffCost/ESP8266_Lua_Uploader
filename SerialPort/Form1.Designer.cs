@@ -1652,6 +1652,7 @@
             this.mqttBrokerKeepAlive.Name = "mqttBrokerKeepAlive";
             this.mqttBrokerKeepAlive.Size = new System.Drawing.Size(90, 20);
             this.mqttBrokerKeepAlive.TabIndex = 26;
+            this.mqttBrokerKeepAlive.Text = "120";
             // 
             // label24
             // 
