@@ -49,7 +49,6 @@
             this.LuaFilenameTextbox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.serialConnectBtn = new System.Windows.Forms.Button();
             this.btnShowHeap = new System.Windows.Forms.Button();
             this.PortComboBox = new System.Windows.Forms.ComboBox();
             this.RefreshButton = new System.Windows.Forms.PictureBox();
@@ -400,7 +399,6 @@
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.serialConnectBtn);
             this.groupBox1.Controls.Add(this.btnShowHeap);
             this.groupBox1.Controls.Add(this.PortComboBox);
             this.groupBox1.Controls.Add(this.RefreshButton);
@@ -417,17 +415,6 @@
             this.groupBox1.TabIndex = 28;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Communication";
-            // 
-            // serialConnectBtn
-            // 
-            this.serialConnectBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.serialConnectBtn.Location = new System.Drawing.Point(254, 16);
-            this.serialConnectBtn.Name = "serialConnectBtn";
-            this.serialConnectBtn.Size = new System.Drawing.Size(94, 23);
-            this.serialConnectBtn.TabIndex = 32;
-            this.serialConnectBtn.Text = "Connect";
-            this.serialConnectBtn.UseVisualStyleBackColor = true;
-            this.serialConnectBtn.Click += new System.EventHandler(this.serialConnectBtn_Click);
             // 
             // btnShowHeap
             // 
@@ -451,7 +438,7 @@
             // 
             // RefreshButton
             // 
-            this.RefreshButton.BackColor = System.Drawing.Color.Red;
+            this.RefreshButton.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.RefreshButton.Image = global::LuaUploader.Properties.Resources._1417911755_refresh;
             this.RefreshButton.Location = new System.Drawing.Point(96, 20);
             this.RefreshButton.Name = "RefreshButton";
@@ -1949,7 +1936,6 @@
         private System.Windows.Forms.Button snippetNewBtn;
         private System.Windows.Forms.TextBox snippetNewFileName;
         private System.Windows.Forms.CheckBox byteCodeCompileRemoveLua;
-        private System.Windows.Forms.Button serialConnectBtn;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.ComboBox mqttSubscribeQos;

@@ -268,6 +268,7 @@ namespace LuaUploader
                 "file.remove(\"{0}\")\r\n" +
                 "file.open(\"{0}\",\"w\")\r\n" +
                 "{1}" +
+                "file.flush()\r\n" +
                 "file.close()\r\n", targetFileName, WrapInWriteLine(origFile));
             
             SendLines(luaCode);
@@ -281,19 +282,15 @@ namespace LuaUploader
 
         private void OpenComPort()
         {
-            RefreshButton.BackColor = Color.Green;
             if (serialPort.IsOpen)
             {
                 serialPort.Close();
-                RefreshButton.BackColor = Color.Red;
-                PortComboBox.Enabled = true;
-                BaudRateBox.Enabled = true;
             }
+
             //-- Keep COM port up-to-date --
             serialPort.PortName = PortComboBox.Text;
-            PortComboBox.Enabled = false;
             serialPort.BaudRate = int.Parse(BaudRateBox.Text);
-            BaudRateBox.Enabled = false;
+
             try
             {
                 serialPort.Open();
@@ -339,6 +336,7 @@ namespace LuaUploader
                 "file.remove(\"{0}\")\r\n" +
                 "file.open(\"{0}\",\"w\")\r\n" +
                 "{1}" +
+                "file.flush()\r\n" +
                 "file.close()\r\n", LuaFilenameTextbox.Text, WrapInWriteLine(LuaCodeTextbox.Text));
 
             if (RunAfterSaving.Checked)
@@ -919,6 +917,7 @@ namespace LuaUploader
                 "file.remove(\"{0}\")\r\n" +
                 "file.open(\"{0}\",\"w\")\r\n" +
                 "{1}" +
+                "file.flush()\r\n" +
                 "file.close()\r\n", snippetFileName.Text, WrapInWriteLine(snippetsText.Text));
 
             if (snippetSaveToEspAutoRun.Checked)
@@ -928,21 +927,6 @@ namespace LuaUploader
             }
 
             SendLines(luaCode);
-        }
-
-        private void serialConnectBtn_Click(object sender, EventArgs e)
-        {
-            OpenComPort();
-            serialConnectBtn.Text = "Connect";
-            if(serialPort.IsOpen)
-            {
-                serialConnectBtn.Text = "Disconnect";
-            }
-            else
-            {
-                serialConnectBtn.Text = "Connect";
-                serialPort.Close();
-            }
         }
 
         private void mqttBrokerConnectBtn_Click(object sender, EventArgs e)
